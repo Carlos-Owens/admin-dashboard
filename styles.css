@@ -137,6 +137,10 @@
     gap: 25px;
 }
 
+.account-buttons button:hover {
+    background-color: #0284c7;
+}
+
 .account-buttons > button{
     background-color: #0ea5e9;
     color: #fff;

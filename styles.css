@@ -62,8 +62,9 @@
     display: grid;
     grid-column: 2/3;
     grid-template-columns: 2fr 1fr;
-    padding: 10px 25px;
+    padding: 8px 25px;
 }
+
 .header-container div {
     display: flex;
     align-items: center;
@@ -78,8 +79,72 @@
     width: 40vw;
 }
 
-.header-container img {
-    margin-right: 15px;
+.search img, .account-greeting img {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.header-container .search img{
+    height: 3.2vh;
+}
+
+.header-container .icons .bell {
+    height: 3.2vh;
+}
+
+.header-container .icons .profile1 {
+    height: 6vh;
+}
+
+.icons p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.account-greeting {
+    align-self: flex-end;
+}
+
+.account-greeting img {
+    height: 8vh;
+}
+
+.greetings-block {
+    flex-direction: column;
+    text-align: left;
+    gap: 8px;
+}
+
+.greetings-block .greeting {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.greetings-block .name-greeting {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.account-buttons {
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.account-buttons > button{
+    background-color: #0ea5e9;
+    color: #fff;
+    min-width: 6vw;
+    border: none;
+    font-size: 20px;
+    padding: 8px 20px;
+    border-radius: 20px;
 }
 
 .project-display {
